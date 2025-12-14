@@ -1,0 +1,12 @@
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\bin\Debug\net8.0\SecondBrain.Core.deps.json
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\bin\Debug\net8.0\SecondBrain.Core.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\bin\Debug\net8.0\SecondBrain.Core.pdb
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\obj\Debug\net8.0\SecondBrain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\obj\Debug\net8.0\SecondBrain.Core.AssemblyInfoInputs.cache
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\obj\Debug\net8.0\SecondBrain.Core.AssemblyInfo.cs
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\obj\Debug\net8.0\SecondBrain.Core.csproj.CoreCompileInputs.cache
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\obj\Debug\net8.0\SecondBrain.Core.sourcelink.json
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\obj\Debug\net8.0\SecondBrain.Core.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\obj\Debug\net8.0\refint\SecondBrain.Core.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\obj\Debug\net8.0\SecondBrain.Core.pdb
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Core\obj\Debug\net8.0\ref\SecondBrain.Core.dll

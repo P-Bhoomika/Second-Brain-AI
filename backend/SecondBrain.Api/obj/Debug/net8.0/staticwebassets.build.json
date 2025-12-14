@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "42sbZlqm3KPTE5lU4jDKsIZiVeRB7pwNsti5ik5BpxQ=",
+  "Source": "SecondBrain.Api",
+  "BasePath": "_content/SecondBrain.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

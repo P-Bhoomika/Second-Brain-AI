@@ -1,0 +1,16 @@
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\bin\Debug\net8.0\SecondBrain.Infrastructure.deps.json
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\bin\Debug\net8.0\SecondBrain.Infrastructure.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\bin\Debug\net8.0\SecondBrain.Infrastructure.pdb
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\bin\Debug\net8.0\SecondBrain.Core.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\bin\Debug\net8.0\SecondBrain.Core.pdb
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\obj\Debug\net8.0\SecondBrain.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\obj\Debug\net8.0\SecondBrain.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\obj\Debug\net8.0\SecondBrain.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\obj\Debug\net8.0\SecondBrain.Infrastructure.AssemblyInfo.cs
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\obj\Debug\net8.0\SecondBrain.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\obj\Debug\net8.0\SecondBrain.Infrastructure.sourcelink.json
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\obj\Debug\net8.0\SecondBr.BF2AE07E.Up2Date
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\obj\Debug\net8.0\SecondBrain.Infrastructure.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\obj\Debug\net8.0\refint\SecondBrain.Infrastructure.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\obj\Debug\net8.0\SecondBrain.Infrastructure.pdb
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Infrastructure\obj\Debug\net8.0\ref\SecondBrain.Infrastructure.dll

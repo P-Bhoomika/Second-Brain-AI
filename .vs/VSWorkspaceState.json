@@ -3,10 +3,12 @@
     "",
     "\\backend",
     "\\backend\\SecondBrain.Api",
-    "\\backend\\SecondBrain.Core\\Models",
+    "\\backend\\SecondBrain.Api\\Controllers",
+    "\\backend\\SecondBrain.Api\\Services",
     "\\backend\\SecondBrain.Infrastructure",
-    "\\backend\\SecondBrain.Infrastructure\\Db"
+    "\\backend\\SecondBrain.Infrastructure\\Db",
+    "\\backend\\SecondBrain.Infrastructure\\Models"
   ],
-  "SelectedNode": "\\backend\\SecondBrain.Infrastructure\\Db\\SecondBrainDbContext.cs",
+  "SelectedNode": "\\backend\\SecondBrain.Infrastructure\\SecondBrain.Infrastructure.csproj",
   "PreviewInSolutionExplorer": false
 }

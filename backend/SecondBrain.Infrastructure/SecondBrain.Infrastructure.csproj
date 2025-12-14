@@ -1,18 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\SecondBrain.Core\SecondBrain.Core.csproj" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.18" />
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.18" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\SecondBrain.Core\SecondBrain.Core.csproj" />
+	</ItemGroup>
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<!-- Force EF Core 7 -->
+	<ItemGroup>
+  <PackageReference Include="Npgsql" Version="8.0.3" />
+  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.3" />
+  <PackageReference Include="Pgvector" Version="0.3.0" />
+  <PackageReference Include="Pgvector.EntityFrameworkCore" Version="0.2.1" />
+</ItemGroup>
+
+	<!-- 🔒 HARD OVERRIDE: block Npgsql 8.x -->
+	<ItemGroup>
+		<PackageReference Update="Npgsql" Version="8.0.3" />
+	</ItemGroup>
 
 </Project>

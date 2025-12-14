@@ -1,39 +1,26 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using SecondBrain.Core.Models;
+using SecondBrain.Infrastructure.Models;
 
 namespace SecondBrain.Infrastructure.Db;
 
 public class SecondBrainDbContext : DbContext
 {
     public SecondBrainDbContext(DbContextOptions<SecondBrainDbContext> options)
-        : base(options)
-    {
-    }
+        : base(options) { }
 
-    public DbSet<User> Users => Set<User>();
-    public DbSet<Source> Sources => Set<Source>();
     public DbSet<Chunk> Chunks => Set<Chunk>();
     public DbSet<Embedding> Embeddings => Set<Embedding>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<User>()
-            .HasKey(u => u.UserId);
+        // ✅ PRIMARY KEY
+        modelBuilder.Entity<Embedding>()
+            .HasKey(e => e.ChunkId);
 
-        modelBuilder.Entity<Source>()
-            .HasKey(s => s.SourceId);
-
-        modelBuilder.Entity<Chunk>()
-            .HasKey(c => c.ChunkId);
-
-        modelBuilder.Entity<Embedding>(entity =>
-        {
-            entity.HasKey(e => e.ChunkId);
-
-            entity.Property(e => e.Vector)
-                .HasColumnType("vector");
-        });
-
-        base.OnModelCreating(modelBuilder);
+        // ✅ Map pgvector column
+        modelBuilder.Entity<Embedding>()
+            .Property(e => e.Vector)
+            .HasColumnType("vector(384)");
     }
 }
