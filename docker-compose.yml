@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg15
+    container_name: secondbrain-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: secondbrain
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - secondbrain_data:/var/lib/postgresql/data
+
+volumes:
+  secondbrain_data:

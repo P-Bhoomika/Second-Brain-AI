@@ -2,6 +2,7 @@ using System;
 using Microsoft.AspNetCore.Mvc;
 using SecondBrain.Api.DTOs;
 using SecondBrain.Core.Models;
+using SecondBrain.Infrastructure.Db;
 
 namespace SecondBrain.Api.Controllers;
 
@@ -9,6 +10,13 @@ namespace SecondBrain.Api.Controllers;
 [Route("ingest")]
 public class IngestController : ControllerBase
 {
+    private readonly SecondBrainDbContext _dbContext;
+
+    public IngestController(SecondBrainDbContext dbContext)
+    {
+        _dbContext = dbContext;
+    }
+
     [HttpPost("text")]
     public IActionResult IngestText([FromBody] IngestTextRequest request)
     {
@@ -17,17 +25,16 @@ public class IngestController : ControllerBase
             return BadRequest("Text is required.");
         }
 
-        // Placeholder logic (DB insert comes next)
         var source = new Source
         {
             SourceId = Guid.NewGuid(),
             UserId = Guid.NewGuid(), // placeholder
             SourceType = "text",
             Title = request.Title,
-            ObservedAt = request.ObservedAt ?? DateTime.UtcNow
+            ObservedAt = request.ObservedAt ?? DateTime.UtcNow,
+            IngestedAt = DateTime.UtcNow
         };
 
-        // Simple chunking (naive)
         var chunks = request.Text
             .Split("\n\n", StringSplitOptions.RemoveEmptyEntries)
             .Select((text, index) => new Chunk
@@ -41,11 +48,26 @@ public class IngestController : ControllerBase
             })
             .ToList();
 
+        try
+        {
+            _dbContext.Sources.Add(source);
+            _dbContext.Chunks.AddRange(chunks);
+            _dbContext.SaveChanges();
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new
+            {
+                error = "Database is not available yet.",
+                detail = ex.Message
+            });
+        }
+
         return Ok(new
         {
             sourceId = source.SourceId,
             chunksCreated = chunks.Count,
-            message = "Text ingested successfully (persistence coming next)."
+            message = "Text ingested and persisted successfully."
         });
     }
 }

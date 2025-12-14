@@ -40,3 +40,8 @@ C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Api\o
 C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Api\obj\Debug\net7.0\SecondBrain.Api.pdb
 C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Api\obj\Debug\net7.0\SecondBrain.Api.genruntimeconfig.cache
 C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Api\obj\Debug\net7.0\ref\SecondBrain.Api.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\pbhoo\source\repos\P-Bhoomika\Second-Brain-AI\backend\SecondBrain.Api\bin\Debug\net7.0\System.CodeDom.dll

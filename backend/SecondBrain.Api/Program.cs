@@ -5,7 +5,7 @@ using SecondBrain.Infrastructure.Db;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<SecondBrainDbContext>(options =>
-    options.UseNpgsql("Host=localhost;Database=secondbrain"));
+    options.UseNpgsql("Host=localhost;Port=5432;Database=secondbrain;Username=postgres;Password=postgres"));
 
 // Add services to the container.
 
