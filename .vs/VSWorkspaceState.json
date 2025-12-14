@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\backend",
+    "\\backend\\SecondBrain.Api",
+    "\\backend\\SecondBrain.Core\\Models",
+    "\\backend\\SecondBrain.Infrastructure",
+    "\\backend\\SecondBrain.Infrastructure\\Db"
   ],
+  "SelectedNode": "\\backend\\SecondBrain.Infrastructure\\Db\\SecondBrainDbContext.cs",
   "PreviewInSolutionExplorer": false
 }

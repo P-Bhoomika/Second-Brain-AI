@@ -1,4 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using SecondBrain.Infrastructure.Db;
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<SecondBrainDbContext>(options =>
+    options.UseNpgsql("Host=localhost;Database=secondbrain"));
 
 // Add services to the container.
 
